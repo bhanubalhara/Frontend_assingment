@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Bundle & Save</h2>
+
+      <!-- Option 1: 1 Pair -->
+      <div class="option" data-price="195">
+        <label class="option-header">
+          <div>
+            <input type="radio" name="bundle" />
+            1 Pair <br />
+            <small>DKK 195.00</small>
+          </div>
+          <div><span class="badge">50% OFF</span></div>
+        </label>
+        <div class="option-details">
+          <div class="labels">
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <!-- #1 row -->
+          <div class="row">
+            <span class="number-label">#1</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option disabled selected>Colour</option>
+              <option>Red</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+          <!-- #2 row -->
+          <div class="row">
+            <span class="number-label">#2</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option disabled selected>Colour</option>
+              <option>Red</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Option 2: 2 Pair -->
+      <div class="option" data-price="345">
+        <label class="option-header">
+          <div>
+            <input type="radio" name="bundle" />
+            2 Pair <br />
+            <small>DKK 345.00</small>
+          </div>
+          <div>
+            <span class="badge">Most Popular</span><br />
+            <span class="badge">40% OFF</span>
+          </div>
+        </label>
+        <div class="option-details">
+          <div class="labels">
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <!-- #1 row -->
+          <div class="row">
+            <span class="number-label">#1</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option disabled selected>Colour</option>
+              <option>Red</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+          <!-- #2 row -->
+          <div class="row">
+            <span class="number-label">#2</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option disabled selected>Colour</option>
+              <option>Red</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Option 3: 2 Pair (Edited from 3 Pair to 2 Pair) -->
+      <div class="option" data-price="528">
+        <label class="option-header">
+          <div>
+            <input type="radio" name="bundle" />
+            2 Pair <br />
+            <small>DKK 528.00</small>
+          </div>
+          <div><span class="badge">60% OFF</span></div>
+        </label>
+        <div class="option-details">
+          <div class="labels">
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <!-- #1 row -->
+          <div class="row">
+            <span class="number-label">#1</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option disabled selected>Colour</option>
+              <option>Red</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+          <!-- #2 row -->
+          <div class="row">
+            <span class="number-label">#2</span>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option disabled selected>Colour</option>
+              <option>Red</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Total Section -->
+      <div class="footer">
+        Free 2 Day Shipping | Total:
+        <span id="totalPrice" style="color: #198754">DKK 0.00</span>
+      </div>
+
+      <button>+ Add to Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
